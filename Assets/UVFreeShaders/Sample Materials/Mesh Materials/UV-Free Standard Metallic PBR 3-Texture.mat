@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UV-Free Standard Metallic PBR 3-Texture
+  m_Shader: {fileID: 4800000, guid: cc1b0f60eb4c244ffb41d05775fdc42c, type: 3}
+  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _OCCLUSION _PARALLAXMAP _UVFREE_BOTTOM
+    _UVFREE_LOCAL
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8b03de0b171354c89a439f8289e5c3e5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 8e69b4fdf7ba848b5aba2ff795486ea4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 17037b609a70c4800b47f9e3426f7ad2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 998d2c1ccc67c4bc0bcb9a5cee6d9344, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 3f0f2ce1baaee40a1aaaf3113f2da0c4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TopMainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 7aadb23c6bc084d40925bf75661a1443, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TopBumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: aa7f6dc8f60e64937850f37ad06fec77, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TopEmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BottomMainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 771ba38d9f8f3458082e78c4a8e16f5c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BottomBumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e89fc6eac82134db49ef192518d79fbe, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BottomEmissionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: ebe2b695c3f6d43bd8df7e1052075eb9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TopMetallicGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b52449f80ebb14672800cf31b1ea6798, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BottomMetallicGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 0a3060fe8797d4597a313c527a81d996, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: 0.593
+      data:
+        first:
+          name: _BumpScale
+        second: 2
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _EmissionScaleUI
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 1
+      data:
+        first:
+          name: _TriplanarSpace
+        second: 1
+      data:
+        first:
+          name: _TexPower
+        second: 5
+      data:
+        first:
+          name: _VertexColorStrength
+        second: 0
+      data:
+        first:
+          name: _UsingMetallicGlossMap
+        second: 1
+      data:
+        first:
+          name: _TopMultiplier
+        second: 1.5
+      data:
+        first:
+          name: _BottomMultiplier
+        second: 1
+      data:
+        first:
+          name: _TopBumpScale
+        second: 1.5
+      data:
+        first:
+          name: _BottomBumpScale
+        second: 1
+      data:
+        first:
+          name: _TopGlossiness
+        second: 0.362
+      data:
+        first:
+          name: _TopEmissionScaleUI
+        second: 0
+      data:
+        first:
+          name: _BottomGlossiness
+        second: 0.5
+      data:
+        first:
+          name: _BottomEmissionScaleUI
+        second: 3
+      data:
+        first:
+          name: _TopMetallic
+        second: 0.541
+      data:
+        first:
+          name: _BottomMetallic
+        second: 0
+      data:
+        first:
+          name: _TopUsingMetallicGlossMap
+        second: 1
+      data:
+        first:
+          name: _BottomUsingMetallicGlossMap
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TopColor
+        second: {r: 0.9137268, g: 0.9137268, b: 0.9137268, a: 1}
+      data:
+        first:
+          name: _TopEmissionColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _BottomColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _BottomEmissionColor
+        second: {r: 3, g: 3, b: 3, a: 3}
+      data:
+        first:
+          name: _TopEmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _BottomEmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
